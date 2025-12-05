@@ -1,3 +1,5 @@
+Link to final presentation: https://www.canva.com/design/DAG6ksX93Vs/k8eNGtommS5sJpSuakKzFQ/edit?utm_content=DAG6ksX93Vs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 How to Run It
 
 Open the Xcode project, run it on the iOS Simulator or a physical device, and navigate through the home screens to explore recipes, tools, and timers.
