@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C53BAFC2EA365EF00449122 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 7C53BAFB2EA365EF00449122 /* Swinject */; };
+		7C53BBE22EA493F200449122 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C53BBE12EA493F200449122 /* WidgetKit.framework */; };
+		7C53BBE42EA493F200449122 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C53BBE32EA493F200449122 /* SwiftUI.framework */; };
+		7C53BBF52EA493F300449122 /* FlavorlyWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7C53BBDF2EA493F200449122 /* FlavorlyWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C53BBF32EA493F300449122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C53BAC52EA362AF00449122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C53BBDE2EA493F200449122;
+			remoteInfo = FlavorlyWidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7C53BBFA2EA493F300449122 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7C53BBF52EA493F300449122 /* FlavorlyWidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7C53BACD2EA362AF00449122 /* Flavorly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flavorly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C53BBDF2EA493F200449122 /* FlavorlyWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FlavorlyWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C53BBE12EA493F200449122 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		7C53BBE32EA493F200449122 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		7C53BBFC2EA4945C00449122 /* FlavorlyWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlavorlyWidgetsExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7C53BB752EA3719C00449122 /* Exceptions for "Flavorly" folder in "Flavorly" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7C53BACC2EA362AF00449122 /* Flavorly */;
+		};
+		7C53BBF92EA493F300449122 /* Exceptions for "FlavorlyWidgets" folder in "FlavorlyWidgetsExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7C53BBDE2EA493F200449122 /* FlavorlyWidgetsExtension */;
+		};
+		7C53BC022EA4950C00449122 /* Exceptions for "Flavorly" folder in "FlavorlyWidgetsExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				Assets/bakery.ttf,
+				Assets/Boldins.otf,
+				Assets/Boldins.ttf,
+				UI/Models/BakingTimer.swift,
+			);
+			target = 7C53BBDE2EA493F200449122 /* FlavorlyWidgetsExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7C53BACF2EA362AF00449122 /* Flavorly */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7C53BB752EA3719C00449122 /* Exceptions for "Flavorly" folder in "Flavorly" target */,
+				7C53BC022EA4950C00449122 /* Exceptions for "Flavorly" folder in "FlavorlyWidgetsExtension" target */,
+			);
+			path = Flavorly;
+			sourceTree = "<group>";
+		};
+		7C53BBE52EA493F200449122 /* FlavorlyWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7C53BBF92EA493F300449122 /* Exceptions for "FlavorlyWidgets" folder in "FlavorlyWidgetsExtension" target */,
+			);
+			path = FlavorlyWidgets;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C53BACA2EA362AF00449122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C53BAFC2EA365EF00449122 /* Swinject in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C53BBDC2EA493F200449122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C53BBE42EA493F200449122 /* SwiftUI.framework in Frameworks */,
+				7C53BBE22EA493F200449122 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C53BAC42EA362AF00449122 = {
+			isa = PBXGroup;
+			children = (
+				7C53BBFC2EA4945C00449122 /* FlavorlyWidgetsExtension.entitlements */,
+				7C53BACF2EA362AF00449122 /* Flavorly */,
+				7C53BBE52EA493F200449122 /* FlavorlyWidgets */,
+				7C53BBE02EA493F200449122 /* Frameworks */,
+				7C53BACE2EA362AF00449122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C53BACE2EA362AF00449122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C53BACD2EA362AF00449122 /* Flavorly.app */,
+				7C53BBDF2EA493F200449122 /* FlavorlyWidgetsExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C53BBE02EA493F200449122 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C53BBE12EA493F200449122 /* WidgetKit.framework */,
+				7C53BBE32EA493F200449122 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C53BACC2EA362AF00449122 /* Flavorly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C53BAF12EA362B000449122 /* Build configuration list for PBXNativeTarget "Flavorly" */;
+			buildPhases = (
+				7C53BAC92EA362AF00449122 /* Sources */,
+				7C53BACA2EA362AF00449122 /* Frameworks */,
+				7C53BACB2EA362AF00449122 /* Resources */,
+				7C53BBFA2EA493F300449122 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C53BBF42EA493F300449122 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7C53BACF2EA362AF00449122 /* Flavorly */,
+			);
+			name = Flavorly;
+			packageProductDependencies = (
+				7C53BAFB2EA365EF00449122 /* Swinject */,
+			);
+			productName = Flavorly;
+			productReference = 7C53BACD2EA362AF00449122 /* Flavorly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C53BBDE2EA493F200449122 /* FlavorlyWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C53BBF62EA493F300449122 /* Build configuration list for PBXNativeTarget "FlavorlyWidgetsExtension" */;
+			buildPhases = (
+				7C53BBDB2EA493F200449122 /* Sources */,
+				7C53BBDC2EA493F200449122 /* Frameworks */,
+				7C53BBDD2EA493F200449122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7C53BBE52EA493F200449122 /* FlavorlyWidgets */,
+			);
+			name = FlavorlyWidgetsExtension;
+			packageProductDependencies = (
+			);
+			productName = FlavorlyWidgetsExtension;
+			productReference = 7C53BBDF2EA493F200449122 /* FlavorlyWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C53BAC52EA362AF00449122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					7C53BACC2EA362AF00449122 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					7C53BBDE2EA493F200449122 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 7C53BAC82EA362AF00449122 /* Build configuration list for PBXProject "Flavorly" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C53BAC42EA362AF00449122;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7C53BAFA2EA365EF00449122 /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7C53BACE2EA362AF00449122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C53BACC2EA362AF00449122 /* Flavorly */,
+				7C53BBDE2EA493F200449122 /* FlavorlyWidgetsExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C53BACB2EA362AF00449122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C53BBDD2EA493F200449122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C53BAC92EA362AF00449122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C53BBDB2EA493F200449122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C53BBF42EA493F300449122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C53BBDE2EA493F200449122 /* FlavorlyWidgetsExtension */;
+			targetProxy = 7C53BBF32EA493F300449122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7C53BAEF2EA362B000449122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C53BAF02EA362B000449122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C53BAF22EA362B000449122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Flavorly/Flavorly.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flavorly/Preview Content\"";
+				DEVELOPMENT_TEAM = 33543JQP75;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Flavorly/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "to access your music library for comfort songs";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access to take photos and videos of your baking progress!";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Flavorly needs microphone access for voice conversions and video recording";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Flavorly needs permission to save your beautiful Instagram stories to your photo library";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "to save happy moment photos and access videos";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Flavorly uses speech recognition to understand measurements";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flavorly.flavorly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C53BAF32EA362B000449122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Flavorly/Flavorly.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flavorly/Preview Content\"";
+				DEVELOPMENT_TEAM = 33543JQP75;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Flavorly/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "to access your music library for comfort songs";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access to take photos and videos of your baking progress!";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Flavorly needs microphone access for voice conversions and video recording";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Flavorly needs permission to save your beautiful Instagram stories to your photo library";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "to save happy moment photos and access videos";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Flavorly uses speech recognition to understand measurements";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flavorly.flavorly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7C53BBF72EA493F300449122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = FlavorlyWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33543JQP75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlavorlyWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FlavorlyWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flavorly.flavorly.FlavorlyWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C53BBF82EA493F300449122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = FlavorlyWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33543JQP75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlavorlyWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FlavorlyWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flavorly.flavorly.FlavorlyWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C53BAC82EA362AF00449122 /* Build configuration list for PBXProject "Flavorly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C53BAEF2EA362B000449122 /* Debug */,
+				7C53BAF02EA362B000449122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C53BAF12EA362B000449122 /* Build configuration list for PBXNativeTarget "Flavorly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C53BAF22EA362B000449122 /* Debug */,
+				7C53BAF32EA362B000449122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C53BBF62EA493F300449122 /* Build configuration list for PBXNativeTarget "FlavorlyWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C53BBF72EA493F300449122 /* Debug */,
+				7C53BBF82EA493F300449122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7C53BAFA2EA365EF00449122 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7C53BAFB2EA365EF00449122 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C53BAFA2EA365EF00449122 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7C53BAC52EA362AF00449122 /* Project object */;
+}

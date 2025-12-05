@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Flavorly needs microphone access for voice conversions</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Flavorly uses speech recognition to understand measurements</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>bakery.ttf</string>
+		<string>Boldins.ttf</string>
+		<string>Boldins.otf</string>
+	</array>
+</dict>
+</plist>
+
